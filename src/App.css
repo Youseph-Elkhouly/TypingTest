@@ -1,0 +1,123 @@
+/* Main App Styling */
+.App {
+  text-align: center;
+  background-color: #1e1e1e; /* Black background */
+  color: #f5f6fa; /* Light text color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 3.5rem; /* Make title bigger */
+  color: #8e44ad; /* Purple title color */
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Typing Options */
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.option-btn {
+  background-color: #8e44ad;
+  color: white;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #9b59b6;
+  transform: scale(1.1);
+}
+
+/* Difficulty Options */
+.difficulty-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.difficulty-btn {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.difficulty-btn:hover {
+  background-color: #a29bfe;
+  transform: scale(1.1);
+}
+
+/* Words Styling */
+.words-container {
+  font-size: 2.5rem; /* Increase word size */
+  margin-bottom: 40px;
+  line-height: 2.5rem;
+  color: #f5f6fa;
+}
+
+/* Correct words turn green */
+.correct-word {
+  color: #00b894;
+  font-weight: bold;
+}
+
+/* Current word is red */
+.current-word {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Typing Input */
+.typing-input {
+  padding: 20px;
+  font-size: 2rem; /* Increase input text size */
+  width: 80%; /* Make input box larger */
+  max-width: 800px;
+  border-radius: 12px;
+  border: 2px solid #ced6e0;
+  margin-bottom: 40px;
+  background-color: #2d3436;
+  color: white;
+}
+
+.typing-input:focus {
+  border-color: #00a8ff;
+}
+
+/* Play Again Button */
+.play-again-btn {
+  background-color: #44bd32;
+  color: white;
+  padding: 20px 40px; /* Larger button */
+  font-size: 1.75rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.play-again-btn:hover {
+  background-color: #4cd137;
+  transform: scale(1.1); /* Subtle scale effect on hover */
+}
